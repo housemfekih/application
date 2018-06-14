@@ -209,6 +209,6 @@ class __TwigTemplate_c845b13ed30513df86fadcaef2b8551ddf77c44f74ab9c74cd6c669a98e
   </footer>
 </body>
 </html>
-", "::applications.html.twig", "/home/houssem/myApp/app/Resources/views/applications.html.twig");
+", "::applications.html.twig", "/home/houssem/Application/app/Resources/views/applications.html.twig");
     }
 }

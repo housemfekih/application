@@ -65,6 +65,6 @@ class __TwigTemplate_c088610c6f2d0988efbf085da48aa1a84193cd9cd43bfb3738590d09bb7
         return new Twig_Source("/*
 {{ include('@Twig/Exception/exception.txt.twig', { exception: exception }) }}
 */
-", "TwigBundle:Exception:exception.js.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.js.twig");
+", "TwigBundle:Exception:exception.js.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.js.twig");
     }
 }

@@ -131,6 +131,6 @@ class __TwigTemplate_84a6d037d1e8757659c5370d3d56493c0cdc7124d949340f1be0be1fa95
 {% endautoescape %}
 {% endblock %}
 {% block body_html %}{% endblock %}
-", "FOSUserBundle:Registration:email.txt.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Registration/email.txt.twig");
+", "FOSUserBundle:Registration:email.txt.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Registration/email.txt.twig");
     }
 }

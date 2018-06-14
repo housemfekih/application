@@ -84,6 +84,6 @@ class __TwigTemplate_2f5f2f862426c711a61688ec3202d05eed1c9811df75689d16c1048006f
     {% endfor %}
     </ul>
 </div>
-", "FOSUserBundle:Group:list_content.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Group/list_content.html.twig");
+", "FOSUserBundle:Group:list_content.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Group/list_content.html.twig");
     }
 }

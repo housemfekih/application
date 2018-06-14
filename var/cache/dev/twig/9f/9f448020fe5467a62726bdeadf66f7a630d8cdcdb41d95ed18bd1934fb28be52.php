@@ -143,6 +143,6 @@ class __TwigTemplate_01ad80558df09c471b30ad6889d5c2dd4402d02a31a6e02f4f6fc1e217d
      
     </ul>
 {% endblock %}
-", ":champ:edit.html.twig", "/home/houssem/myApp/app/Resources/views/champ/edit.html.twig");
+", ":champ:edit.html.twig", "/home/houssem/Application/app/Resources/views/champ/edit.html.twig");
     }
 }

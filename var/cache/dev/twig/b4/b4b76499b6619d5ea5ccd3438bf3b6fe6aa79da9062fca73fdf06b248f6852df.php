@@ -83,6 +83,6 @@ class __TwigTemplate_67e8004e0221fb8c5c8a9c33b7157862e0e8cc34cb6db6f17dd5ae01732
         <input type=\"submit\" value=\"{{ 'group.new.submit'|trans }}\" />
     </div>
 {{ form_end(form) }}
-", "FOSUserBundle:Group:new_content.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Group/new_content.html.twig");
+", "FOSUserBundle:Group:new_content.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Group/new_content.html.twig");
     }
 }

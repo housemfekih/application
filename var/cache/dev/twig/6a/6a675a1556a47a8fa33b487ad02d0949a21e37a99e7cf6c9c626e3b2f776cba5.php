@@ -69,6 +69,6 @@ class __TwigTemplate_62a3d57131a6cd46d9b9da260feebd4a4cf0d116e15b629666071877ce0
 {{ status_code }} {{ status_text }}
 
 */
-", "TwigBundle:Exception:error.js.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.js.twig");
+", "TwigBundle:Exception:error.js.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.js.twig");
     }
 }

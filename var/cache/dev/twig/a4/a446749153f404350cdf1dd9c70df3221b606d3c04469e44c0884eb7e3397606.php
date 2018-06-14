@@ -478,6 +478,6 @@ class __TwigTemplate_7a874cbca9229fae8d76ee6375e178e516b5294163997ffce163adbe102
         {% endif %}
     </div>
 </div>
-", "TwigBundle:Exception:exception.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
+", "TwigBundle:Exception:exception.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
     }
 }

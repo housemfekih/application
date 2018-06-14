@@ -85,6 +85,6 @@ class __TwigTemplate_4908f8216eeec865e971f0d4d65e682f73721349fcfcf4a6fd0f29c6e34
 {% block fos_user_content %}
 {% include \"@FOSUser/ChangePassword/change_password_content.html.twig\" %}
 {% endblock fos_user_content %}
-", "FOSUserBundle:ChangePassword:change_password.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig");
+", "FOSUserBundle:ChangePassword:change_password.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig");
     }
 }

@@ -144,6 +144,6 @@ class __TwigTemplate_26a03a2d41e06953042ba9c8136c25c90bcc608b43b1a2a28de5245c7f1
     {{ filename|file_excerpt(line, -1) }}
 </div>
 {% endblock %}
-", "WebProfilerBundle:Profiler:open.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/open.html.twig");
+", "WebProfilerBundle:Profiler:open.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/open.html.twig");
     }
 }

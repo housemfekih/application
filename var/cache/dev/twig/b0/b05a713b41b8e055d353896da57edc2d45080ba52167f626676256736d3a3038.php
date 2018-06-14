@@ -535,6 +535,6 @@ class __TwigTemplate_e7c368a0b41170e5f05e6c98f7997666fba211b01fd320a9c9e59a6ece8
 </body>
 </html> 
 
-", ":templates:style2.html.twig", "/home/houssem/myApp/app/Resources/views/templates/style2.html.twig");
+", ":templates:style2.html.twig", "/home/houssem/Application/app/Resources/views/templates/style2.html.twig");
     }
 }

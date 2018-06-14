@@ -161,6 +161,6 @@ class __TwigTemplate_ef6bab487e0ffff49656dd028ff54ab301d4dc6e592b9c1d155bf3566c5
         {%- endfor -%}
     </pre>
 {% endif %}
-", "DoctrineBundle:Collector:explain.html.twig", "/home/houssem/myApp/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "DoctrineBundle:Collector:explain.html.twig", "/home/houssem/Application/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

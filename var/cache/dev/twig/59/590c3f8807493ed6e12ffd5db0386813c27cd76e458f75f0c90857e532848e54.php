@@ -94,6 +94,6 @@ class __TwigTemplate_2d8b9befcbc3a6ae7288970f89d5b87de14d7209b4d615863e93cbd86c5
   {{ include('@Twig/Exception/trace.txt.twig', { trace: trace }, with_context = false) }}
 {% endfor %}
 {% endif %}
-", "TwigBundle:Exception:traces.txt.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.txt.twig");
+", "TwigBundle:Exception:traces.txt.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.txt.twig");
     }
 }

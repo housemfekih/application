@@ -363,6 +363,6 @@ class __TwigTemplate_f23adcd059f37815bbd2583c68e440c20fdfa2f9895d1f4d58c4e0cace8
                   {% endblock %}
  
 
-", "@FOSUser/layout.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/layout.html.twig");
+", "@FOSUser/layout.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/layout.html.twig");
     }
 }

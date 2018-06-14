@@ -2027,6 +2027,6 @@ class __TwigTemplate_8ef18eeca15a0da3b168eb003c5a777de48675e9e11d3ddd71ca2101c14
         {{ tree.form_tree_details(childName, childData, forms_by_hash) }}
     {% endfor %}
 {% endmacro %}
-", "WebProfilerBundle:Collector:form.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/form.html.twig");
+", "WebProfilerBundle:Collector:form.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/form.html.twig");
     }
 }

@@ -1669,6 +1669,6 @@ class __TwigTemplate_b2b6cf98cafc92ebfa993eca0ff4f5d7a4a418a000bd3b38ff04bd6afca
         </tbody>
     </table>
 {% endmacro %}
-", "DoctrineBundle:Collector:db.html.twig", "/home/houssem/myApp/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "DoctrineBundle:Collector:db.html.twig", "/home/houssem/Application/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

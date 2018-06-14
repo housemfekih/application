@@ -168,6 +168,6 @@ class __TwigTemplate_eedb49677d847225ce0286b4d3f947513b6fd3473e0e0f71e278885d2c5
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/houssem/myApp/app/Resources/views/base.html.twig");
+", "base.html.twig", "/home/houssem/Application/app/Resources/views/base.html.twig");
     }
 }

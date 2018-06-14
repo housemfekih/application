@@ -113,6 +113,6 @@ class __TwigTemplate_1b21dd43d239adeb3a3375ac0af241cfd4bf1b6cb06e6a9aae6e64e55a2
 <script>
 
 \$(\".image-picker\").imagepicker()
-</script>", "::test2.html.twig", "/home/houssem/myApp/app/Resources/views/test2.html.twig");
+</script>", "::test2.html.twig", "/home/houssem/Application/app/Resources/views/test2.html.twig");
     }
 }

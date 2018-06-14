@@ -125,6 +125,6 @@ class __TwigTemplate_c03d39668e568d227f34b131977bd8a51719b7dd1f95ff5754b165c52db
         </li>
     {% endfor %}
 </ul>
-", "MgiletNotificationBundle::notifications.html.twig", "/home/houssem/myApp/vendor/mgilet/notification-bundle/Resources/views/notifications.html.twig");
+", "MgiletNotificationBundle::notifications.html.twig", "/home/houssem/Application/vendor/mgilet/notification-bundle/Resources/views/notifications.html.twig");
     }
 }

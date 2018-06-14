@@ -386,6 +386,6 @@ class __TwigTemplate_6a1689617e55c4567ce9d27c68a669bec53b4ffe1cd0f99edd06f77525b
         {% endfor %}
     </table>
 {% endmacro %}
-", "WebProfilerBundle:Collector:events.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/events.html.twig");
+", "WebProfilerBundle:Collector:events.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/events.html.twig");
     }
 }

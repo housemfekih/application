@@ -331,6 +331,6 @@ Réinventez votre CV en moins de 10 minutes, pour se faire embaucher plus rapide
 </body>
 
 </html>
-", "FOSUserBundle:Registration:check_email.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Registration/check_email.html.twig");
+", "FOSUserBundle:Registration:check_email.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Registration/check_email.html.twig");
     }
 }

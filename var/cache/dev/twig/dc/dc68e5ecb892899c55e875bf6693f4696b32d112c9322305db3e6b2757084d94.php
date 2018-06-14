@@ -53,6 +53,6 @@ class __TwigTemplate_66f90fb742820932298337bd4b225181a21d4cc15946c92f9148d4c6524
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->widget(\$form) ?>
-", "@Framework/Form/hidden_row.html.php", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/hidden_row.html.php");
+", "@Framework/Form/hidden_row.html.php", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/hidden_row.html.php");
     }
 }

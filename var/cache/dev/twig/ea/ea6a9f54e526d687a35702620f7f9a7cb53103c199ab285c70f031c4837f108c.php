@@ -98,6 +98,6 @@ class __TwigTemplate_b569e9adc67b7fe7a5cd1128f2235bd5b968b7470c43b470c8c845873da
     <p>{{ 'profile.show.email'|trans }}: {{ user.nom }}</p>
     <p>{{ 'profile.show.email'|trans }}: {{ user.prenom }}</p>
 </div>
-", "FOSUserBundle:Profile:show_content.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig");
+", "FOSUserBundle:Profile:show_content.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig");
     }
 }

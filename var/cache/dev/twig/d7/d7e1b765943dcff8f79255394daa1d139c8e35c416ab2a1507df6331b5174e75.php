@@ -397,6 +397,6 @@ class __TwigTemplate_551f72c91e5c7d169c167451a646ecbb869dbe42ea97f321d1cad24de5e
         </div>
     {% endif %}
 {% endblock %}
-", "WebProfilerBundle:Collector:twig.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/twig.html.twig");
+", "WebProfilerBundle:Collector:twig.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/twig.html.twig");
     }
 }

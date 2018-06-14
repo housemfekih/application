@@ -185,6 +185,6 @@ class __TwigTemplate_e479510099f8c5df6b0fde5ca9f658946f5411bc6912cead34c7abc3d54
             {{ form_end(delete_form) }}
     </ul>
 {% endblock %}
-", ":section:show.html.twig", "/home/houssem/myApp/app/Resources/views/section/show.html.twig");
+", ":section:show.html.twig", "/home/houssem/Application/app/Resources/views/section/show.html.twig");
     }
 }

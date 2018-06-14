@@ -70,6 +70,6 @@ class __TwigTemplate_e981bdaf471a00fc3efe07f1b97fb385e10291466b7d1ca32eab99a4ece
     public function getSourceContext()
     {
         return new Twig_Source("{% block panel '' %}
-", "WebProfilerBundle:Profiler:ajax_layout.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/ajax_layout.html.twig");
+", "WebProfilerBundle:Profiler:ajax_layout.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/ajax_layout.html.twig");
     }
 }

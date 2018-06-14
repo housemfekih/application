@@ -47,6 +47,8 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
 
         // line 4
         echo "
+
+
   <div class=\"row\">
                             <div class=\"col-12\">
                                 <div class=\"page-title-box\">
@@ -75,25 +77,27 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
                                     <div class=\"inbox-leftbar\">
 
                                         <a href=\"";
-        // line 32
+        // line 34
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_thread_new");
         echo "\" class=\"btn btn-danger btn-block waves-effect waves-light\">Nouveau message</a>
 
                                         <div class=\"mail-list mt-4\">
                                                 <a href=\"";
-        // line 35
+        // line 37
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_inbox");
-        echo "\"  class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Boit de réception</b><span class=\"badge badge-danger float-right ml-2\">8</span></a>
+        echo "\"  class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Boite de réception</b><span class=\"badge badge-danger float-right ml-2\">";
+        echo twig_escape_filter($this->env, $this->env->getExtension('FOS\MessageBundle\Twig\Extension\MessageExtension')->getNbUnread(), "html", null, true);
+        echo "</span></a>
 
                                       
                                           
                                                <a href=\"";
-        // line 39
+        // line 41
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_sent");
         echo "\"  class=\"list-group-item border-0\"><i class=\"mdi mdi-send font-18 align-middle mr-2\"></i>Message envoyées</a>
 
                                                 <a href=\"";
-        // line 41
+        // line 43
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_deleted");
         echo "\"  class=\"list-group-item border-0\"><i class=\"mdi mdi-delete font-18 align-middle mr-2\"></i>Message supprimées</a>
                                         </div>
@@ -109,27 +113,27 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
                                    <thead>
         <tr>
             <th>";
-        // line 54
+        // line 56
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("subject", array(), "FOSMessageBundle");
         echo "</th>
             <th>";
-        // line 55
+        // line 57
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("starter", array(), "FOSMessageBundle");
         echo "</th>
             <th>";
-        // line 56
+        // line 58
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("startdate", array(), "FOSMessageBundle");
         echo "</th>
             <th>";
-        // line 57
+        // line 59
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("messages", array(), "FOSMessageBundle");
         echo "</th>
             <th>";
-        // line 58
+        // line 60
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("last_message", array(), "FOSMessageBundle");
         echo "</th>
             <th>";
-        // line 59
+        // line 61
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("actions", array(), "FOSMessageBundle");
         echo "</th>
         </tr>
@@ -138,60 +142,60 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
     <tbody>
 
     ";
-        // line 65
+        // line 67
         if (($context["threads"] ?? $this->getContext($context, "threads"))) {
-            // line 66
+            // line 68
             echo "        ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["threads"] ?? $this->getContext($context, "threads")));
             foreach ($context['_seq'] as $context["_key"] => $context["thread"]) {
-                // line 67
+                // line 69
                 echo "            <tr>
                 <td>
                     <a href=\"";
-                // line 69
+                // line 71
                 echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getUrl("fos_message_thread_view", array("threadId" => $this->getAttribute($context["thread"], "id", array()))), "html", null, true);
                 echo "\">
                         ";
-                // line 70
+                // line 72
                 echo twig_escape_filter($this->env, $this->getAttribute($context["thread"], "subject", array()), "html", null, true);
                 echo "
                     </a>
 
                     ";
-                // line 73
+                // line 75
                 if ( !$this->env->getExtension('FOS\MessageBundle\Twig\Extension\MessageExtension')->isRead($context["thread"])) {
-                    // line 74
+                    // line 76
                     echo "                        (";
                     echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("new", array(), "FOSMessageBundle");
                     echo ")
                     ";
                 }
-                // line 76
+                // line 78
                 echo "                </td>
                 <td>
                     ";
-                // line 78
+                // line 80
                 echo twig_escape_filter($this->env, $this->getAttribute($context["thread"], "createdBy", array()), "html", null, true);
                 echo "
                 </td>
                 <td>
                     ";
-                // line 81
+                // line 83
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["thread"], "createdAt", array())), "html", null, true);
                 echo "
                 </td>
                 <td>
                     ";
-                // line 84
+                // line 86
                 echo twig_escape_filter($this->env, twig_length_filter($this->env, $this->getAttribute($context["thread"], "messages", array())), "html", null, true);
                 echo "
                 </td>
                 <td>
                     ";
-                // line 87
+                // line 89
                 if ($this->getAttribute($context["thread"], "lastMessage", array())) {
-                    // line 88
+                    // line 90
                     echo "                        <a href=\"";
                     echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getUrl("fos_message_thread_view", array("threadId" => $this->getAttribute($context["thread"], "id", array()))), "html", null, true);
                     echo "#message_";
@@ -202,67 +206,67 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
                             →
                         </a>
                         ";
-                    // line 91
+                    // line 93
                     echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("on", array("%date%" => twig_date_format_filter($this->env, $this->getAttribute($this->getAttribute($context["thread"], "lastMessage", array()), "createdAt", array()))), "FOSMessageBundle");
-                    // line 92
+                    // line 94
                     echo "                        <br />
                         ";
-                    // line 93
+                    // line 95
                     echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("by", array("%sender%" => twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["thread"], "lastMessage", array()), "sender", array()))), "FOSMessageBundle");
-                    // line 94
+                    // line 96
                     echo "                    ";
                 } else {
-                    // line 95
+                    // line 97
                     echo "                        ----
                     ";
                 }
-                // line 97
+                // line 99
                 echo "                </td>
                 <td>
                     ";
-                // line 99
+                // line 101
                 if ($this->env->getExtension('FOS\MessageBundle\Twig\Extension\MessageExtension')->canDeleteThread($context["thread"])) {
-                    // line 100
+                    // line 102
                     echo "                        ";
                     if ($this->env->getExtension('FOS\MessageBundle\Twig\Extension\MessageExtension')->isThreadDeletedByParticipant($context["thread"])) {
-                        // line 101
+                        // line 103
                         echo "                            ";
                         ob_start();
                         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getUrl("fos_message_thread_undelete", array("threadId" => $this->getAttribute($context["thread"], "id", array()))), "html", null, true);
                         $context["formAction"] = ('' === $tmp = ob_get_clean()) ? '' : new Twig_Markup($tmp, $this->env->getCharset());
-                        // line 102
+                        // line 104
                         echo "                            ";
                         ob_start();
                         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("undelete", array(), "FOSMessageBundle");
                         $context["submitValue"] = ('' === $tmp = ob_get_clean()) ? '' : new Twig_Markup($tmp, $this->env->getCharset());
-                        // line 103
+                        // line 105
                         echo "                        ";
                     } else {
-                        // line 104
+                        // line 106
                         echo "                            ";
                         ob_start();
                         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getUrl("fos_message_thread_delete", array("threadId" => $this->getAttribute($context["thread"], "id", array()))), "html", null, true);
                         $context["formAction"] = ('' === $tmp = ob_get_clean()) ? '' : new Twig_Markup($tmp, $this->env->getCharset());
-                        // line 105
+                        // line 107
                         echo "                            ";
                         ob_start();
                         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("delete", array(), "FOSMessageBundle");
                         $context["submitValue"] = ('' === $tmp = ob_get_clean()) ? '' : new Twig_Markup($tmp, $this->env->getCharset());
-                        // line 106
+                        // line 108
                         echo "                        ";
                     }
-                    // line 107
+                    // line 109
                     echo "                        <form action=\"";
                     echo twig_escape_filter($this->env, ($context["formAction"] ?? $this->getContext($context, "formAction")), "html", null, true);
                     echo "\" method=\"post\">
                                 <input type=\"submit\" value=\"";
-                    // line 108
+                    // line 110
                     echo twig_escape_filter($this->env, ($context["submitValue"] ?? $this->getContext($context, "submitValue")), "html", null, true);
                     echo "\" />
                         </form>
                     ";
                 }
-                // line 111
+                // line 113
                 echo "                </td>
             </tr>
         ";
@@ -270,21 +274,21 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['thread'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 114
+            // line 116
             echo "    ";
         } else {
-            // line 115
+            // line 117
             echo "        <tr>
             <td colspan=\"6\">
                 ";
-            // line 117
+            // line 119
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->getTranslator()->trans("no_thread", array(), "FOSMessageBundle");
             echo ".
             </td>
         </tr>
     ";
         }
-        // line 121
+        // line 123
         echo "
     </tbody>
 
@@ -355,7 +359,7 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
 
     public function getDebugInfo()
     {
-        return array (  288 => 121,  281 => 117,  277 => 115,  274 => 114,  266 => 111,  260 => 108,  255 => 107,  252 => 106,  247 => 105,  242 => 104,  239 => 103,  234 => 102,  229 => 101,  226 => 100,  224 => 99,  220 => 97,  216 => 95,  213 => 94,  211 => 93,  208 => 92,  206 => 91,  195 => 88,  193 => 87,  187 => 84,  181 => 81,  175 => 78,  171 => 76,  165 => 74,  163 => 73,  157 => 70,  153 => 69,  149 => 67,  144 => 66,  142 => 65,  133 => 59,  129 => 58,  125 => 57,  121 => 56,  117 => 55,  113 => 54,  97 => 41,  92 => 39,  85 => 35,  79 => 32,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  292 => 123,  285 => 119,  281 => 117,  278 => 116,  270 => 113,  264 => 110,  259 => 109,  256 => 108,  251 => 107,  246 => 106,  243 => 105,  238 => 104,  233 => 103,  230 => 102,  228 => 101,  224 => 99,  220 => 97,  217 => 96,  215 => 95,  212 => 94,  210 => 93,  199 => 90,  197 => 89,  191 => 86,  185 => 83,  179 => 80,  175 => 78,  169 => 76,  167 => 75,  161 => 72,  157 => 71,  153 => 69,  148 => 68,  146 => 67,  137 => 61,  133 => 60,  129 => 59,  125 => 58,  121 => 57,  117 => 56,  101 => 43,  96 => 41,  87 => 37,  81 => 34,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -371,6 +375,8 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
         return new Twig_Source("{% extends 'admin.html.twig' %}
 
 {% block fos_message_content %}
+
+
 
   <div class=\"row\">
                             <div class=\"col-12\">
@@ -402,7 +408,7 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
                                         <a href=\"{{ path('fos_message_thread_new')}}\" class=\"btn btn-danger btn-block waves-effect waves-light\">Nouveau message</a>
 
                                         <div class=\"mail-list mt-4\">
-                                                <a href=\"{{ path('fos_message_inbox')}}\"  class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Boit de réception</b><span class=\"badge badge-danger float-right ml-2\">8</span></a>
+                                                <a href=\"{{ path('fos_message_inbox')}}\"  class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Boite de réception</b><span class=\"badge badge-danger float-right ml-2\">{{ fos_message_nb_unread() }}</span></a>
 
                                       
                                           
@@ -538,6 +544,6 @@ class __TwigTemplate_7aa7d921ea3bb26fdadfe9ea6cfdb6936d5667698cc484b716330a64cdf
 
 
 {% endblock %}
-", "FOSMessageBundle:Message:inbox.html.twig", "/home/houssem/myApp/app/Resources/FOSMessageBundle/views/Message/inbox.html.twig");
+", "FOSMessageBundle:Message:inbox.html.twig", "/home/houssem/Application/app/Resources/FOSMessageBundle/views/Message/inbox.html.twig");
     }
 }

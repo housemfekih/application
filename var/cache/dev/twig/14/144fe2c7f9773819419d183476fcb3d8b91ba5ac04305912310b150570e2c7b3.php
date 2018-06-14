@@ -49,6 +49,6 @@ class __TwigTemplate_2b0a93740349f32be18e8cc6c8abe085293bb632cbae378574be06dc9c7
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "FOSMessageBundle:Message:threads_list.html.twig", "/home/houssem/myApp/app/Resources/FOSMessageBundle/views/Message/threads_list.html.twig");
+        return new Twig_Source("", "FOSMessageBundle:Message:threads_list.html.twig", "/home/houssem/Application/app/Resources/FOSMessageBundle/views/Message/threads_list.html.twig");
     }
 }

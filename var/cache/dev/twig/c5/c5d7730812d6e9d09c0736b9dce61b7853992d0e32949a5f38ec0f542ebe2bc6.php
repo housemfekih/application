@@ -259,6 +259,6 @@ class __TwigTemplate_5bb4e8562694c8e86ec0e21ea2de41989d5b02571c5dc6026c59d7ece95
             } );
 
         </script>
-{% endblock %}", ":groupe:index.html.twig", "/home/houssem/myApp/app/Resources/views/groupe/index.html.twig");
+{% endblock %}", ":groupe:index.html.twig", "/home/houssem/Application/app/Resources/views/groupe/index.html.twig");
     }
 }

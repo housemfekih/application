@@ -95,6 +95,6 @@ class __TwigTemplate_dd9b5dba1d707479368e8ce5b861113aca5ad47d7c36ea861f4aab432d5
 {{ 'resetting.check_email'|trans({'%tokenLifetime%': tokenLifetime})|nl2br }}
 </p>
 {% endblock %}
-", "FOSUserBundle:Resetting:check_email.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Resetting/check_email.html.twig");
+", "FOSUserBundle:Resetting:check_email.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Resetting/check_email.html.twig");
     }
 }

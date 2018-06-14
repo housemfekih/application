@@ -110,6 +110,6 @@ class __TwigTemplate_32d2507f40a44a2b8f62ab132df63ce9aefd273fa6eaf785fb17e298165
 {% include 'FOSMessageBundle:Message:threads_list.html.twig' with {'threads': threads} %}
 
 {% endblock %}
-", "FOSMessageBundle:Message:search.html.twig", "/home/houssem/myApp/app/Resources/FOSMessageBundle/views/Message/search.html.twig");
+", "FOSMessageBundle:Message:search.html.twig", "/home/houssem/Application/app/Resources/FOSMessageBundle/views/Message/search.html.twig");
     }
 }

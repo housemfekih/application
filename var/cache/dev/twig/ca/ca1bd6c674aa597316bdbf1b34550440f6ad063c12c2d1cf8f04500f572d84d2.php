@@ -83,6 +83,6 @@ class __TwigTemplate_bc62c39c67d52ef4d43ff6bb241d95eec8284f9fe4f79c4dee7a80dc00f
         <input type=\"submit\" value=\"{{ 'change_password.submit'|trans }}\" />
     </div>
 {{ form_end(form) }}
-", "FOSUserBundle:ChangePassword:change_password_content.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/ChangePassword/change_password_content.html.twig");
+", "FOSUserBundle:ChangePassword:change_password_content.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/ChangePassword/change_password_content.html.twig");
     }
 }

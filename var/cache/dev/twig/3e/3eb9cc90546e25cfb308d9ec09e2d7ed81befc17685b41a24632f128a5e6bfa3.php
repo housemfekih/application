@@ -210,6 +210,6 @@ class __TwigTemplate_a1b6756290325000bba9787d4e393712ca91624ce326cd445105fde9df9
         </li>
     </ul>
 {% endblock %}
-", ":user:show.html.twig", "/home/houssem/myApp/app/Resources/views/user/show.html.twig");
+", ":user:show.html.twig", "/home/houssem/Application/app/Resources/views/user/show.html.twig");
     }
 }

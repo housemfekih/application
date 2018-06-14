@@ -565,6 +565,6 @@ class __TwigTemplate_01d615ab6b8e3cd3db6fd74104be35a9db3f46477d0f8ab7223fe4a17ae
         <!-- App js -->
        <script type=\"text/javascript\" src=\"{{ asset ('template/assets/js/jquery.core.js')}}\"></script>
     <script type=\"text/javascript\" src=\"{{ asset ('template/assets/js/jquery.app.js')}}\"></script>
-", "::test.html.twig", "/home/houssem/myApp/app/Resources/views/test.html.twig");
+", "::test.html.twig", "/home/houssem/Application/app/Resources/views/test.html.twig");
     }
 }

@@ -46,7 +46,25 @@ class __TwigTemplate_7e6ffcd7c1130703fd7445da643acaf6eeb62efa8598dfb575e5311c68c
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "    <h1>Users list</h1>
+        echo "   ";
+        if (($context["threads"] ?? $this->getContext($context, "threads"))) {
+            // line 5
+            echo "        ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable(($context["threads"] ?? $this->getContext($context, "threads")));
+            foreach ($context['_seq'] as $context["_key"] => $context["thread"]) {
+                // line 6
+                echo "        ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['thread'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 7
+            echo "        ";
+        }
+        // line 8
+        echo "
+    <h1>Users list</h1>
 
      <table id=\"datatable\" class=\"table table-bordered\">
         <thead>
@@ -63,51 +81,51 @@ class __TwigTemplate_7e6ffcd7c1130703fd7445da643acaf6eeb62efa8598dfb575e5311c68c
         </thead>
         <tbody>
         ";
-        // line 20
+        // line 25
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["users"] ?? $this->getContext($context, "users")));
         foreach ($context['_seq'] as $context["_key"] => $context["user"]) {
-            // line 21
+            // line 26
             echo "            <tr>
                 <td><a href=\"";
-            // line 22
+            // line 27
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("user_show", array("id" => $this->getAttribute($context["user"], "id", array()))), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->getAttribute($context["user"], "id", array()), "html", null, true);
             echo "</a></td>
                 <td>";
-            // line 23
+            // line 28
             echo twig_escape_filter($this->env, $this->getAttribute($context["user"], "prenom", array()), "html", null, true);
             echo "</td>
                 <td>";
-            // line 24
+            // line 29
             echo twig_escape_filter($this->env, $this->getAttribute($context["user"], "nom", array()), "html", null, true);
             echo "</td>
                 <td>";
-            // line 25
+            // line 30
             echo twig_escape_filter($this->env, $this->getAttribute($context["user"], "sexe", array()), "html", null, true);
             echo "</td>
                 <td>";
-            // line 26
+            // line 31
             if ($this->getAttribute($context["user"], "datenaissance", array())) {
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["user"], "datenaissance", array()), "Y-m-d"), "html", null, true);
             }
             echo "</td>
                 <td>";
-            // line 27
+            // line 32
             echo twig_escape_filter($this->env, $this->getAttribute($context["user"], "phonenumber", array()), "html", null, true);
             echo "</td>
              \t\t\t\t\t\t\t    
 
                 <td><img src=\"";
-            // line 30
+            // line 35
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(("public/uploads/avatars/" . $this->getAttribute($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "user", array()), "avatar", array()))), "html", null, true);
             echo "\" style=\"width:30%\" alt=\"avatar\" class=\"rounded-circle\"></td>
                 <td>
                     <ul>
                         <li>
                             <a href=\"";
-            // line 34
+            // line 39
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("user_show", array("id" => $this->getAttribute($context["user"], "id", array()))), "html", null, true);
             echo "\">show</a>
                         </li>
@@ -119,7 +137,7 @@ class __TwigTemplate_7e6ffcd7c1130703fd7445da643acaf6eeb62efa8598dfb575e5311c68c
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['user'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 40
+        // line 45
         echo "        </tbody>
     </table>
 
@@ -145,7 +163,7 @@ class __TwigTemplate_7e6ffcd7c1130703fd7445da643acaf6eeb62efa8598dfb575e5311c68c
 
     public function getDebugInfo()
     {
-        return array (  123 => 40,  111 => 34,  104 => 30,  98 => 27,  92 => 26,  88 => 25,  84 => 24,  80 => 23,  74 => 22,  71 => 21,  67 => 20,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  141 => 45,  129 => 39,  122 => 35,  116 => 32,  110 => 31,  106 => 30,  102 => 29,  98 => 28,  92 => 27,  89 => 26,  85 => 25,  66 => 8,  63 => 7,  57 => 6,  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -161,6 +179,11 @@ class __TwigTemplate_7e6ffcd7c1130703fd7445da643acaf6eeb62efa8598dfb575e5311c68c
         return new Twig_Source("{% extends 'admin.html.twig' %}
 
 {% block body %}
+   {% if threads %}
+        {% for thread in threads %}
+        {% endfor %}
+        {% endif %}
+
     <h1>Users list</h1>
 
      <table id=\"datatable\" class=\"table table-bordered\">
@@ -202,6 +225,6 @@ class __TwigTemplate_7e6ffcd7c1130703fd7445da643acaf6eeb62efa8598dfb575e5311c68c
 
     
 {% endblock %}
-", ":user:index.html.twig", "/home/houssem/myApp/app/Resources/views/user/index.html.twig");
+", ":user:index.html.twig", "/home/houssem/Application/app/Resources/views/user/index.html.twig");
     }
 }

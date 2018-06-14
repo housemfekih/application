@@ -85,6 +85,6 @@ class __TwigTemplate_37e7383d8fd0858d87fffddb49c02084991cd24c7019fc97e60b7ae1ca7
 {% block fos_user_content %}
 {% include \"@FOSUser/Group/new_content.html.twig\" %}
 {% endblock fos_user_content %}
-", "FOSUserBundle:Group:new.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Group/new.html.twig");
+", "FOSUserBundle:Group:new.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Group/new.html.twig");
     }
 }

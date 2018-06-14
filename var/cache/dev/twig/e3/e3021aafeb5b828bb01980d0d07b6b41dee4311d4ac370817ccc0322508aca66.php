@@ -171,6 +171,6 @@ class __TwigTemplate_d87c9cd6aa7d42c795555f4acc2713621b7538168fc2c51f0a484b5a438
         </div>
     </div>
 </div>
-", "TwigBundle:Exception:traces.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.html.twig");
+", "TwigBundle:Exception:traces.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.html.twig");
     }
 }

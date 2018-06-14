@@ -209,6 +209,6 @@ class __TwigTemplate_d6324ff39abbfca126ffd1faef903d96fdf16a5c5596531a8c12a0a801a
         </div>
     {% endif %}
 {% endblock %}
-", "WebProfilerBundle:Collector:exception.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/exception.html.twig");
+", "WebProfilerBundle:Collector:exception.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/exception.html.twig");
     }
 }

@@ -1063,6 +1063,6 @@ class __TwigTemplate_3b64a7d4217d082877e08e90b7c68dbff44c41f23bede42bcf387482d08
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "WebProfilerBundle:Collector:request.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/request.html.twig");
+", "WebProfilerBundle:Collector:request.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/request.html.twig");
     }
 }

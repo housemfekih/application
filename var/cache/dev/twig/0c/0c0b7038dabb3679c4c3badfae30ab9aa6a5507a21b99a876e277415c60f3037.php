@@ -131,6 +131,6 @@ class __TwigTemplate_6fbb989d2daed6e66d3feef6d6ea77649ac187597d2989066cdef92d8b2
 {% endautoescape %}
 {% endblock %}
 {% block body_html %}{% endblock %}
-", "FOSUserBundle:Resetting:email.txt.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Resetting/email.txt.twig");
+", "FOSUserBundle:Resetting:email.txt.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Resetting/email.txt.twig");
     }
 }

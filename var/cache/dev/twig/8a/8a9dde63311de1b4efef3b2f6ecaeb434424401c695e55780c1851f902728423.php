@@ -100,6 +100,6 @@ class __TwigTemplate_335b5f24ee80479039b3d6de0938fbbcf3ac9dafbe4e8dcacb6b875a694
 {% include 'FOSMessageBundle:Message:threads_list.html.twig' with {'threads': threads} %}
 
 {% endblock %}
-", "FOSMessageBundle:Message:deleted.html.twig", "/home/houssem/myApp/app/Resources/FOSMessageBundle/views/Message/deleted.html.twig");
+", "FOSMessageBundle:Message:deleted.html.twig", "/home/houssem/Application/app/Resources/FOSMessageBundle/views/Message/deleted.html.twig");
     }
 }

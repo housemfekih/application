@@ -57,12 +57,12 @@ class __TwigTemplate_78ba64f37334dfdeb181cbdf16521a7338fbd9f6cecea6a0b511a89c974
 <div class=\"row\">
                             <div class=\"col-12\">
                                 <div class=\"page-title-box\">
-                                    <h4 class=\"page-title float-left\">Email Compose</h4>
+                                    <h4 class=\"page-title float-left\">Nouveau messsage/h4>
 
                                     <ol class=\"breadcrumb float-right\">
                                         <li class=\"breadcrumb-item\"><a href=\"#\">Abstack</a></li>
                                         <li class=\"breadcrumb-item\"><a href=\"#\">Email</a></li>
-                                        <li class=\"breadcrumb-item active\">Email Compose</li>
+                                        <li class=\"breadcrumb-item active\">Nouveau message</li>
                                     </ol>
 
                                     <div class=\"clearfix\"></div>
@@ -84,22 +84,22 @@ class __TwigTemplate_78ba64f37334dfdeb181cbdf16521a7338fbd9f6cecea6a0b511a89c974
                                         <a href=\"";
         // line 41
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_inbox");
-        echo "\" class=\"btn btn-danger btn-block waves-effect waves-light\">Inbox</a>
+        echo "\" class=\"btn btn-danger btn-block waves-effect waves-light\">Boite de réception</a>
 
                                         <div class=\"mail-list mt-4\">
                                             <a href=\"";
         // line 44
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_inbox");
-        echo "\" class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Inbox</b><span class=\"badge badge-danger float-right ml-2\">8</span></a>
+        echo "\" class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Boite de reception</b><span class=\"badge badge-danger float-right ml-2\">8</span></a>
                                            
                                             <a href=\"";
         // line 46
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_sent");
-        echo "\" class=\"list-group-item border-0\"><i class=\"mdi mdi-send font-18 align-middle mr-2\"></i>Sent Mail</a>
+        echo "\" class=\"list-group-item border-0\"><i class=\"mdi mdi-send font-18 align-middle mr-2\"></i>Message envoyés</a>
                                            <a href=\"";
         // line 47
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_message_deleted");
-        echo "\" class=\"list-group-item border-0\"><i class=\"mdi mdi-delete font-18 align-middle mr-2\"></i>Trash</a>
+        echo "\" class=\"list-group-item border-0\"><i class=\"mdi mdi-delete font-18 align-middle mr-2\"></i>Message supprimées</a>
                                         </div>
 
                                        
@@ -260,12 +260,12 @@ class __TwigTemplate_78ba64f37334dfdeb181cbdf16521a7338fbd9f6cecea6a0b511a89c974
 <div class=\"row\">
                             <div class=\"col-12\">
                                 <div class=\"page-title-box\">
-                                    <h4 class=\"page-title float-left\">Email Compose</h4>
+                                    <h4 class=\"page-title float-left\">Nouveau messsage/h4>
 
                                     <ol class=\"breadcrumb float-right\">
                                         <li class=\"breadcrumb-item\"><a href=\"#\">Abstack</a></li>
                                         <li class=\"breadcrumb-item\"><a href=\"#\">Email</a></li>
-                                        <li class=\"breadcrumb-item active\">Email Compose</li>
+                                        <li class=\"breadcrumb-item active\">Nouveau message</li>
                                     </ol>
 
                                     <div class=\"clearfix\"></div>
@@ -284,13 +284,13 @@ class __TwigTemplate_78ba64f37334dfdeb181cbdf16521a7338fbd9f6cecea6a0b511a89c974
                                     <!-- Left sidebar -->
                                     <div class=\"inbox-leftbar\">
 
-                                        <a href=\"{{path ('fos_message_inbox')}}\" class=\"btn btn-danger btn-block waves-effect waves-light\">Inbox</a>
+                                        <a href=\"{{path ('fos_message_inbox')}}\" class=\"btn btn-danger btn-block waves-effect waves-light\">Boite de réception</a>
 
                                         <div class=\"mail-list mt-4\">
-                                            <a href=\"{{path ('fos_message_inbox')}}\" class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Inbox</b><span class=\"badge badge-danger float-right ml-2\">8</span></a>
+                                            <a href=\"{{path ('fos_message_inbox')}}\" class=\"list-group-item border-0 text-danger\"><i class=\"mdi mdi-inbox font-18 align-middle mr-2\"></i><b>Boite de reception</b><span class=\"badge badge-danger float-right ml-2\">8</span></a>
                                            
-                                            <a href=\"{{path ('fos_message_sent')}}\" class=\"list-group-item border-0\"><i class=\"mdi mdi-send font-18 align-middle mr-2\"></i>Sent Mail</a>
-                                           <a href=\"{{path ('fos_message_deleted')}}\" class=\"list-group-item border-0\"><i class=\"mdi mdi-delete font-18 align-middle mr-2\"></i>Trash</a>
+                                            <a href=\"{{path ('fos_message_sent')}}\" class=\"list-group-item border-0\"><i class=\"mdi mdi-send font-18 align-middle mr-2\"></i>Message envoyés</a>
+                                           <a href=\"{{path ('fos_message_deleted')}}\" class=\"list-group-item border-0\"><i class=\"mdi mdi-delete font-18 align-middle mr-2\"></i>Message supprimées</a>
                                         </div>
 
                                        
@@ -355,6 +355,6 @@ class __TwigTemplate_78ba64f37334dfdeb181cbdf16521a7338fbd9f6cecea6a0b511a89c974
            
 
             </div>
-{% endblock %}", "FOSMessageBundle:Message:thread.html.twig", "/home/houssem/myApp/app/Resources/FOSMessageBundle/views/Message/thread.html.twig");
+{% endblock %}", "FOSMessageBundle:Message:thread.html.twig", "/home/houssem/Application/app/Resources/FOSMessageBundle/views/Message/thread.html.twig");
     }
 }

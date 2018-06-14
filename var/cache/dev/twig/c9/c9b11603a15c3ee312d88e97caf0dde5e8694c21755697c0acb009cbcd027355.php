@@ -142,6 +142,6 @@ class __TwigTemplate_bef8dea5d52b7c98498f500c70c0ec53395c3eef710fa43519fea91a682
 
         {% block fos_message_content %}{% endblock %}
 
-{% endblock %}", "FOSMessageBundle::layout.html.twig", "/home/houssem/myApp/app/Resources/FOSMessageBundle/views/layout.html.twig");
+{% endblock %}", "FOSMessageBundle::layout.html.twig", "/home/houssem/Application/app/Resources/FOSMessageBundle/views/layout.html.twig");
     }
 }

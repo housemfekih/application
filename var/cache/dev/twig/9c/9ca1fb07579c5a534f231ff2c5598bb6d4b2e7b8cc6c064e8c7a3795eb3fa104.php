@@ -323,6 +323,6 @@ class __TwigTemplate_f70b3c43be315665beb64bd518f51272559813becbf8e57f028b644a34d
         <script type=\"text/javascript\" src=\"{{ asset ('template/assets/js/jquery.app.js')}}\"></script>
 
     </body>
-</html>", "::logout.html.twig", "/home/houssem/myApp/app/Resources/views/logout.html.twig");
+</html>", "::logout.html.twig", "/home/houssem/Application/app/Resources/views/logout.html.twig");
     }
 }

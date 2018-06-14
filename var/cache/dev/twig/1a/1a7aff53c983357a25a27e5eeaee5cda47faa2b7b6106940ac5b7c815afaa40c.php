@@ -211,6 +211,6 @@ class __TwigTemplate_0f9ee8d2e34cb5f3918634ea8be80e88535fb9506cbee07c59125700f9e
   </div>
   {{ form_end(form) }}
 
- ", "FOSUserBundle:Registration:register_content.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig");
+ ", "FOSUserBundle:Registration:register_content.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig");
     }
 }

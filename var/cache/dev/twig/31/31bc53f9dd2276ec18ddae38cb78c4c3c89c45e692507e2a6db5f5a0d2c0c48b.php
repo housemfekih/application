@@ -827,6 +827,6 @@ class __TwigTemplate_97efdc3b8eeb4fb8aea71ab6a404adbeba335a83263020ba43ceedff874
         {% endif %}
     {% endfor %}
 {% endblock %}
-", "SwiftmailerBundle:Collector:swiftmailer.html.twig", "/home/houssem/myApp/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig");
+", "SwiftmailerBundle:Collector:swiftmailer.html.twig", "/home/houssem/Application/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig");
     }
 }

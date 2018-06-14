@@ -307,6 +307,6 @@ header .container { display: flex; justify-content: space-between; }
     .hidden-xs-down { display: initial; }
     .help-link { margin-left: 30px; }
 }
-", "TwigBundle::exception.css.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/exception.css.twig");
+", "TwigBundle::exception.css.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/exception.css.twig");
     }
 }

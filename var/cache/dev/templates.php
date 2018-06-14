@@ -120,6 +120,7 @@
   'FOSMessageBundle:Message:newThread.html.twig' => __DIR__.'/../../../app/Resources/FOSMessageBundle/views/Message/newThread.html.twig',
   'FOSMessageBundle:Message:threads_list.html.twig' => __DIR__.'/../../../app/Resources/FOSMessageBundle/views/Message/threads_list.html.twig',
   'FOSMessageBundle::layout.html.twig' => __DIR__.'/../../../app/Resources/FOSMessageBundle/views/layout.html.twig',
+  'FOSMessageBundle:Message:noti.html.twig' => __DIR__.'/../../../app/Resources/FOSMessageBundle/views/Message/noti.html.twig',
   'MgiletNotificationBundle::notification_list.html.twig' => __DIR__.'/../../../vendor/mgilet/notification-bundle/Resources/views/notification_list.html.twig',
   'MgiletNotificationBundle::notifications.html.twig' => __DIR__.'/../../../vendor/mgilet/notification-bundle/Resources/views/notifications.html.twig',
   'DebugBundle:Profiler:dump.html.twig' => __DIR__.'/../../../vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views/Profiler/dump.html.twig',

@@ -83,6 +83,6 @@ class __TwigTemplate_11649b2febcd23e82abd12758486110026594a06fdd7230bc1b8b1fd6a0
         <input type=\"submit\" value=\"{{ 'profile.edit.submit'|trans }}\" />
     </div>
 {{ form_end(form) }}
-", "FOSUserBundle:Profile:edit_content.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig");
+", "FOSUserBundle:Profile:edit_content.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig");
     }
 }

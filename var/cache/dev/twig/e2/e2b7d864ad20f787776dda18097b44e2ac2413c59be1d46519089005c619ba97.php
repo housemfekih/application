@@ -120,6 +120,6 @@ class __TwigTemplate_e70691e274113252a7811169f779aca1f61551d833c6e04f66d30973fbb
         </li>
     </ul>
 {% endblock %}
-", ":templatechamp:new.html.twig", "/home/houssem/myApp/app/Resources/views/templatechamp/new.html.twig");
+", ":templatechamp:new.html.twig", "/home/houssem/Application/app/Resources/views/templatechamp/new.html.twig");
     }
 }

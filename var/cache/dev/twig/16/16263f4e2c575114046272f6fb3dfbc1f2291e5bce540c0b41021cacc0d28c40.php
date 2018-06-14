@@ -326,6 +326,6 @@ class __TwigTemplate_daecd8c7c1f5282c9ea1407916f60eb94cceedf51a921cbd18b46f7c9a6
         <script type=\"text/javascript\" src=\"{{ asset ('template/assets/js/jquery.core.js')}}\"></script>
         <script type=\"text/javascript\" src=\"{{ asset ('template/assets/js/jquery.app.js')}}\"></script>
 
-    </body>", "FOSUserBundle:Registration:confirmed.html.twig", "/home/houssem/myApp/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig");
+    </body>", "FOSUserBundle:Registration:confirmed.html.twig", "/home/houssem/Application/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig");
     }
 }

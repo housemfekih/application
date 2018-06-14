@@ -149,6 +149,6 @@ class __TwigTemplate_e9935b1ac7e5ac2b34c8761dab3de50e8fd40eff2ad341eac6f03dbefcd
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "WebProfilerBundle:Collector:ajax.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/ajax.html.twig");
+", "WebProfilerBundle:Collector:ajax.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/ajax.html.twig");
     }
 }

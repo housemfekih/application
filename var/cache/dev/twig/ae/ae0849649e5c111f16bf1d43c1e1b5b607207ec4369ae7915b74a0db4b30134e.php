@@ -74,6 +74,6 @@ class __TwigTemplate_10b35c3067dfac534b57e6088d058b852646da5a3bd16781f8604662b25
 {% for notificationItem in notificationList %}
     {{ notificationItem[0] }}
 {% endfor %}
-", "MgiletNotificationBundle::notification_list.html.twig", "/home/houssem/myApp/vendor/mgilet/notification-bundle/Resources/views/notification_list.html.twig");
+", "MgiletNotificationBundle::notification_list.html.twig", "/home/houssem/Application/vendor/mgilet/notification-bundle/Resources/views/notification_list.html.twig");
     }
 }

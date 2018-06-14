@@ -1160,6 +1160,6 @@ class __TwigTemplate_36c396f3843e2479499b4652867fe7d7b9ddb9891f7ac8445515b528803
         </table>
     {% endif %}
 {% endblock %}
-", "SecurityBundle:Collector:security.html.twig", "/home/houssem/myApp/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views/Collector/security.html.twig");
+", "SecurityBundle:Collector:security.html.twig", "/home/houssem/Application/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views/Collector/security.html.twig");
     }
 }
